@@ -13,20 +13,22 @@ echo "ok. run brew upgrade..."
 brew upgrade
 
 formulas=(
-    ruby
-    coreutils
-    git
-    wget
-    nkf
-    curl
-    tree
-    colordiff
-    "--without-etcdir zsh"
     cask
-    tig
+    colordiff
+    coreutils
+    curl
+    emacs
     gcc
+    git
+    nkf
+    opam
     pyenv
     pyenv-virtualenv
+    ruby
+    tig
+    tree
+    wget
+    "--without-etcdir zsh"
 )
 
 echo "start brew install apps..."
@@ -41,7 +43,7 @@ casks=(
     slack
     google-chrome
     google-japanese-ime
-    mactex
+    # mactex
 )
 
 echo "start brew cask install apps..."
